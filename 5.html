@@ -1,0 +1,41 @@
+~<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21B01A1202</title>
+</head>
+<body>
+    <button class="btn">hover</button><br>
+    <a href="https://www.w3schools.com/js/default/.asp">link</a> <br>
+    <div>
+        <p>this is para</p>
+        <p>this is another para</p>
+    </div>
+    <h3>
+        thisn is pseudo element            
+    </h3>
+    <h4>this is using before psuedo element</h4>
+</body>
+</html>
+<!-- css -->
+.btn:hover{
+    background-color:rgb(130,130,210);
+    border-radius:5px;
+}
+a:visited{
+    color:aqua;
+}
+p:hover{
+    color:red;
+}
+p:first-child{
+     color: rgb(121,138,216);
+}
+h3::after{
+    content:"-hello";
+}
+h4::before{
+    content:"hello-"
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="far"placeholder="enter farenhiet value">
+    <input type="text" name="" id="cel"placeholder="the celcius value"> 
+    <input type="button" value="submit" id="bt"onclick="getdata1()">
+    <script>
+        let b=document.getElementById("bt")
+         function getdata1()
+        {
+            let z
+            let x
+            let y
+            let result
+            let faru=document.getElementById("far").value
+            console.log(faru)
+            x=faru-32
+            y=x*5
+            result=y/9
+            console.log(result)
+           document.write(result)
+        }
+        
+    </script>
+</body>
+</html>
